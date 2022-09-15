@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Attribut bgcolor untuk memberi background color pada body -->
+<body bgcolor="pink">
+    <!-- <h1> sd <h5> adalah heading 1 sd heading 5 -->
+    <h1>Ini adalah heading 1</h1>
+    <h2>Ini adalah heading 2</h2>
+    <h3>Ini adalah heading 3</h3>
+    <!-- <p> untuk membuat paragraf -->
+    <p>Hari ini adalah pelajaran Web Design. <br> Saya sudah belajar HTML dasar. Mulai dari Heading 1 sd Heading 6</p>
+
+    <!-- <hr> untuk membuat horizontal rule, merupakan empty tag -->
+    <hr>
+
+    <!-- <div> untuk mengelompokkan beberapa element -->
+    <div>
+        <h5>Ini judul div</h5>
+        <p>Ini paragraf</p>        
+
+        <!-- <img> untuk menampilkan gambar, attribut src untuk mengisi nama file gambar atau URL. attribut alt untuk alternate text jika gambar hilang, maka alt ditampilkan -->
+        <img src="image1.jpg" alt="Gambar" width="400px" height="300px">
+
+        <!-- <br> untuk memberi baris baru -->
+        <br>
+
+        <!-- <a> untuk membuat hyperlink. attribut href untuk mengisi url yang dituju. Absolute address jika href berisi alamat http lengkap -->
+        <a href="https://www.youtube.com/" target="_blank">Buka Youtube</a>
+
+        <!-- <a> untuk membuat relatif address, yaitu link yang menuju ke halaman html lain di dalam folder yang sama -->
+        <a href="about.html">Halaman about</a>
+        <br>
+
+        <!-- <ul> unordered list, untuk membuat list yang tidak memerlukan urutan -->
+        <!-- attribut type untuk mengganti bentuk list. pilihan type untuk ul: square, disc, circle  -->
+        <ul type="square">
+            <li>Mangga</li>
+            <li>Pisang</li>
+            <li>Jambu</li>
+        </ul>
+
+        <!-- <ol> ordered list, untuk membuat list yang memerlukan urutan -->
+        <!-- attribut type untuk mengganti bentuk list. pilihan type untuk ol: 1,a, A, i, I   -->
+        <ol type="a">
+            <li>Beby</li>
+            <li>Hasan</li>
+            <li>Fauzan</li>
+        </ol>
+        <br>
+        
+        <!-- <table> untuk membuat struktur table  -->
+        <!-- <tr> untuk membuat row   -->
+        <!-- <td> untuk membuat kolom -->
+        <!-- <th> untuk membuat kolom header -->
+        <table border="1">
+            <tr>
+                <td>Baris 1 kolom 1</td>
+                <td>Baris 1 kolom 2</td>
+                <td>Baris 1 kolom 3</td>
+            </tr>
+            <tr>
+                <td>Baris 2 kolom 1</td>
+                <td>Baris 2 kolom 2</td>
+                <td>Baris 3 kolom 3</td>
+            </tr>
+        </table>
+
+        <!-- rowspan untuk menyatukan beberapa row (merge row) -->
+        <!-- colspan untuk menyatukan beberapa column (merge column) -->
+        <table border="1">
+            <tr>
+                <th rowspan="2">No</th>
+                <th colspan="2">Mata kuliah</th>                
+                <th rowspan="2">SKS</th>
+            </tr>
+            <tr>
+                <th>Kode</th>
+                <th>Nama MK</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>KKPR206</td>
+                <td>Perancangan Web</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>KKPR207</td>
+                <td>Pemrograman Mobile</td>
+                <td>3</td>
+            </tr>
+        </table>
+
+
+    </div>
+</body>
+</html>
